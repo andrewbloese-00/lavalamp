@@ -5,9 +5,9 @@ const root = document.querySelector("div#app")! as HTMLElement
 
 //creates a new lava lamp background
 const background = new Lavalamp(root,25,{
-  intensity:5, //the contrast instensity
+  intensity:50, //the contrast instensity
   blur: 50, //blur px 
-  color_divider: 10, //lower value = more diverse colors
+  color_divider: 100, //lower value = more diverse colors
   color_offset: 200 //where on hsl color wheel to start (left)
 })
 

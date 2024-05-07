@@ -27,6 +27,8 @@ export class Lavalamp {
     sizeToWindow(){
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
+        // this.#effect.width = this.canvas.width
+        // this.#effect.height = this.canvas.height
     }
     isPlaying():boolean{
         return this.#scene.playing
