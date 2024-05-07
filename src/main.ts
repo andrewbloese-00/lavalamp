@@ -1,5 +1,5 @@
-import { Lavalamp } from './lavalamp'
 import './style.css'
+import { Lavalamp } from './lavalamp'
 
 const root = document.querySelector("div#app")! as HTMLElement
 
