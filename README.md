@@ -1,18 +1,9 @@
-# Lavalamp 
+# Lavalamp 🔮
 Exactly what it sounds like, a lava lamp background component, with customizable colors, intensity, and blur. 
 
 
 ## Usage 
 
-### Running the Example
-To run the example, simply clone this repository and run the following commands: 
-```bash
-    npm install && npm run dev
-```
-This should open a window to the demo application. 
-
-
-### Importing
 ```typescript
 //import the lavalamp class
 import { Lavalamp } from './lavalamp'
@@ -44,5 +35,15 @@ setTimeout(()=>{
 
 
 
+
+
+
+
+### Running the Example
+To run the example, simply clone this repository and run the following commands: 
+```bash
+    npm install && npm run dev
+```
+This should open a window to the demo application. 
 
 
